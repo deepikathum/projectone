@@ -1,0 +1,34 @@
+/* searchResults.css */
+
+.root {
+  margin: 1rem 0;
+}
+
+.imageListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  /* Remove the fixed height to allow container to grow dynamically */
+  /* height: 300px; */
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid /* Insert your border color here */;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imageListItem {
+  flex: 1; 
+}
